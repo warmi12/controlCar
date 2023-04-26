@@ -4,8 +4,6 @@ controlCarESP/sdkconfig
 controlCarESP/sdkconfig.old
 controlCarESP/sdkconfig.ci
 controlCarESP/build/
-controlCarESP/.vscode
 controlCarESP/.devcontainer
 controlCarESP/main/Kconfig.projbuild
-
 #PY
