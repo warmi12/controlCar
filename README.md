@@ -4,7 +4,7 @@ Autorski projekt wykonywany całkowicie samodzielnie, bez żadnych tutoriali dla
 Głównym celem jest stworzenie autonomicznego samochodziku na sterowankę.
 Do realizacji projektu użyto zwykłego samochodziku kupionego w sklepie, RPI, ESP, PC.
 Całość została podzielona na kilka etapów, których połączenie stworzy finalny projekt.
-Prezentacja:https://www.youtube.com/watch?v=6WkMlhz5TMg&ab_channel=TheWarmi12
+Link do wideo: https://www.youtube.com/watch?v=6WkMlhz5TMg&ab_channel=TheWarmi12
 
 Wydzielone etapy:
 1) sterowanie za pomocą mikrokontrolera z poziomu PC,
