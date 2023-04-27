@@ -19,7 +19,7 @@ Po odebraniu danych i ich obrobieniu wysterowywany jest odpowiedni pin ESP.
 Całość znajduje się na poniższym schemacie:
 
 <img
-  src="img0.PNG"
+  src="/imgs/img0.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
