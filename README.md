@@ -4,12 +4,14 @@ Autorski projekt wykonywany całkowicie samodzielnie, bez żadnych tutoriali dla
 Głównym celem jest stworzenie autonomicznego samochodziku na sterowankę.
 Do realizacji projektu użyto zwykłego samochodziku kupionego w sklepie, RPI, ESP, PC.
 Całość została podzielona na kilka etapów, których połączenie stworzy finalny projekt.
+Prezentacja:https://www.youtube.com/watch?v=6WkMlhz5TMg&ab_channel=TheWarmi12
 
+Wydzielone etapy:
 1) sterowanie za pomocą mikrokontrolera z poziomu PC,
 2) montaż rpi + cam na samochodziku, wyświetlanie obrazu z kamery na PC,
 3) przetwarzanie obrazu i sterowanie autkiem.
 
-# Etap 1
+# Etap 1 
 Celem pierwszego etapu jest upewnienie się, że przyjęta koncepcja sterowania działa i na jej podstawie można oprzeć dalszy rozwój projektu
 Pomysł sterowania polega na wlutowaniu w odpowiednich miejscach pilota mikrokontrolera ESP32.
 Zadaniem ESP jest wysterowanie odpowiednich pinów układu znajdującego się w pilocie, co umożliwi sterowanie.
