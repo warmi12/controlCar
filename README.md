@@ -1,19 +1,19 @@
 # ControlCar
 
-Autorski projekt wykonywany całkowicie samodzielnie, bez żadnych tutoriali dla ESP czy RPI.
-Głównym celem jest stworzenie autonomicznego samochodziku na sterowankę.
-Do realizacji projektu użyto zwykłego samochodziku kupionego w sklepie, RPI, ESP, PC.
+Autorski projekt wykonywany całkowicie samodzielnie, bez pomocy tutoriali dla ESP czy Raspberry Pi.
+Głównym celem jest stworzenie autonomicznego pojazdu.
+Do realizacji projektu użyto zwykłego samochodu zdalnie sterowanego, RPI, ESP, PC.
 Całość została podzielona na kilka etapów, których połączenie stworzy finalny projekt.
 Link do wideo: https://www.youtube.com/watch?v=6WkMlhz5TMg&ab_channel=TheWarmi12
 
 Wydzielone etapy:
-1) sterowanie za pomocą mikrokontrolera z poziomu PC,
-2) montaż rpi + cam na samochodziku, wyświetlanie obrazu z kamery na PC,
-3) przetwarzanie obrazu i sterowanie autkiem.
+1) Sterowanie samochodem za pomocą mikrokontrolera z poziomu PC.
+2) Montaż raspberry pi + kamery na samochodzie, wyświetlanie obrazu z kamery na PC.
+3) Przetwarzanie obrazu i autonomiczne sterowanie samochodem.
 
 # Etap 1 
-Celem pierwszego etapu jest upewnienie się, że przyjęta koncepcja sterowania działa i na jej podstawie można oprzeć dalszy rozwój projektu
-Pomysł sterowania polega na wlutowaniu w odpowiednich miejscach pilota mikrokontrolera ESP32.
+Celem pierwszego etapu jest upewnienie się, że przyjęta koncepcja sterowania działa i na jej podstawie można oprzeć dalszy rozwój projektu.
+Pomysł sterowania polega na wlutowaniu w odpowiednich miejscach pilota przewodów, które zostaną podłączone do wyprowadzeń mikrokontrolera ESP32.
 Zadaniem ESP jest wysterowanie odpowiednich pinów układu znajdującego się w pilocie, co umożliwi sterowanie.
 Zaletą takiego rozwiązania jest mniejsza waga pojazdu oraz mniejsze zużycie energii. 
 Bezprzewodowa komunikacja pomiędzy ESP a PC zapewniona jest za pomocą protokołu MQTT.
