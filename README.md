@@ -1,6 +1,6 @@
 # ControlCar
 
-Autorski projekt wykonywany całkowicie samodzielnie, bez pomocy tutoriali dla ESP czy Raspberry Pi.
+Autorski projekt wykonywany całkowicie samodzielnie, bez pomocy w postaci tutoriali dla ESP czy Raspberry Pi.
 Głównym celem jest stworzenie autonomicznego pojazdu.
 Do realizacji projektu użyto zwykłego samochodu zdalnie sterowanego, RPI, ESP, PC.
 Całość została podzielona na kilka etapów, których połączenie stworzy finalny projekt.
